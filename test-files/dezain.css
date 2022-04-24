@@ -25,7 +25,7 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  background-color:black;
+  background-color:white;
   /*overflow-x: hidden;
  animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;*/
@@ -109,7 +109,9 @@ text-align:right;
 {
 
 /*lightGreen*/
-background-color:black;
+background-color : #000; 
+filter:alpha(opacity=50);
+-moz-opacity: 0.5;
 width:100%;
 height:;
 
