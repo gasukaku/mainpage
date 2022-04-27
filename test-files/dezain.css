@@ -303,54 +303,35 @@ background-color:#353434;
 
 
 
-/******ここから下はアニメーション系************/
-.fade{
-
-  animation: fadeIn 1s ease 0.3s 1 normal;}
-
-  .slide-bottom {
-   opacity: 0;
-   transform: translateY(20px);
-   transition: all 1.3s 0s ease-out;}
-
-
-@keyframes fadeIn { 
-
-  0% {opacity: 0} 
-
-  100% {opacity: 1} 
-
+/******ここから下はトップへ戻るボタン************/
+#page_top{
+width: 100px;
+height: 40px;
+position: fixed;
+right: 0;
+bottom: 10px;
+background: #007ab5;
+opacity: 0.6;
 }
-/* 上からフェードイン */
-.slide-top {
-	opacity: 0;
-	transform: translate(0, -20px);
-	transition: all 1s ease-out;
- }
+#page_top a{
+position: relative;
+display: block;
+width: 100px;
+height: 40px;
+text-decoration: none;
+}
 
-/* 下からフェードイン */
-.slide-bottom {
-	opacity: 0;
-	transform: translate(0, 20px);
-	transition: all 1s ease-out;
- }
-
- /* 左からフェードイン */
-.slide-left {
-	opacity: 0;
-	transform: translate(-20px, 0);
-	transition: all 1s ease-out;
- }
-
-/* 右からフェードイン */
-.slide-right {
-	opacity: 0;
-	transform: translate(20px, 0);
-	transition: all 1s ease-out;
- }
-
-  
-  .s{
-
-  animation: fadeIn 6s ease 0.3s 1 normal;}
+#page_top a::after{
+content: '↑ PAGE TOP';
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+position: absolute;
+top: 10px;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+text-align: center;
+}
 
