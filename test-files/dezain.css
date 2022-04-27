@@ -304,17 +304,37 @@ background-color:#353434;
 
 
 /******ここから下はトップへ戻るボタン************/
-#page-top {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    background: #fff;
-    color: #737373;
-    padding: 10px;
-    border: solid 1px;
-    border-radius: 50%;
-    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
-　　color:black;
+/*PAGE TOPボタン追加*/
+#page_top{
+width: 50px;
+height: 50px;
+position: fixed;
+right: 0;
+bottom: 50px;
+background: #003a75; /*ボタンの色*/
+opacity: 0.6;
+border-radius: 50%; /*角の丸み*/
+}
+#page_top a{
+position: relative;
+display: block;
+width: 50px;
+height: 50px;
+text-decoration: none;
+}
+#page_top a::before{
+font-family: "Font Awesome 5 Free";
+content: "f102"; /*アイコン*/
+font-weight: 900;
+font-size: 25px;
+color: #fff; /*アイコンの色*/
+position: absolute;
+width: 25px;
+height: 25px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+text-align: center;
 }
