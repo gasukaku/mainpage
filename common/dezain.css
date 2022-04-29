@@ -7,12 +7,12 @@
   outline: none;
   border: none;
   border-radius: 0;
-  background-color: none;
-  color: ;
+  
+  
   resize: none;
-  transition: 300ms;
+  
   text-decoration: none;
-  -webkit-appearance: none;
+  
   appearance: none;
 }
 /*aタグ色の変更*/
@@ -23,8 +23,10 @@ a:hover {
   color: springgreen;
 }
 body {
+  color: white;
   margin: 0;
   padding: 0;
+  background-color:black;
   /*overflow-x: hidden;
  animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;*/
@@ -93,10 +95,6 @@ top:0;
   width : 50vw ; 
 }
 
-#header2 {
-background-color:PaleGreen;
-width:100%;
-height:;
 
 }
 /*ヘッダープログラム？*/
@@ -111,11 +109,10 @@ text-align:right;
 #header2
 {
 
-
-background-color:lightGreen;
+/*lightGreen*/
+background-color : black; 
 width:100%;
 height:;
-
 position:sticky;
 top:0;
 
@@ -128,15 +125,15 @@ top:0;
 }
 #gasukaku
 {background-color:lightgray;
-  color:rgb(0,0,0)}
-  
+  color:black;
+}
 .pic img { width: 70%; }
 
 #menu
 {
   color: white;}
 #menuback
-{background-color:black
+{background-color:
   ;}
 
 
@@ -208,7 +205,7 @@ header {
     max-width: 320px;
     height: 100vh;
     padding: 53px 16px 16px;
-    background: #1f2c37;
+    background: #black;
     overflow: auto;
     transition: .3s ease-in-out;
     -webkit-transform: translateX(-105%);
@@ -269,6 +266,7 @@ input:checked ~ #h-menu_black {
     background: #455b6d;
 }
 
+
 .bloglogo
 img { width:90%; }
 
@@ -280,4 +278,70 @@ img { width:90%; }
 }
 #header_logp {
  font-family: 'Exo', sans-serif; 
+}
+
+
+#home_logo {
+  padding:15%;
+}
+
+
+#home_logo2 {
+  padding:13%;
+}
+
+#prof {
+background-color:#363636;
+}
+#irai {
+background-color:black;	
+}
+#links {
+background-color:#363636;
+}
+
+#sougo {
+background-color:black;
+}
+
+#gr {
+background-color:#363636;
+}
+
+
+
+/******ここから下はトップへ戻るボタン************/
+/*PAGE TOPボタン追加*/
+#page_top{
+width: 50px;
+height: 50px;
+position: fixed;
+right: 0;
+bottom: 50px;
+background: #003a75; /*ボタンの色*/
+opacity: 0.6;
+border-radius: 50%; /*角の丸み*/
+}
+#page_top a{
+position: relative;
+display: block;
+width: 50px;
+height: 50px;
+text-decoration: none;
+}
+#page_top a::before{
+font-family: "Font Awesome 5 Free";
+content: "f102"; /*アイコン*/
+font-weight: 900;
+font-size: 25px;
+color: #fff; /*アイコンの色*/
+position: absolute;
+width: 25px;
+height: 25px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+text-align: center;
 }
