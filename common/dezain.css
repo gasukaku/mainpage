@@ -282,12 +282,12 @@ img { width:90%; }
 
 
 #home_logo {
-  padding:15%;
+  padding-top:3em;
 }
 
 
 #home_logo2 {
-  padding:13%;
+  padding-top:3em;
 }
 
 #prof {
@@ -307,6 +307,21 @@ background-color:black;
 #gr {
 background-color:#363636;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
