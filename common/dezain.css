@@ -23,10 +23,10 @@ a:hover {
   color: springgreen;
 }
 body {
-  color: white;
+  color: black;
   margin: 0;
   padding: 0;
-  background-color:black;
+  background-color: ;
   /*overflow-x: hidden;
  animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;*/
@@ -110,7 +110,7 @@ text-align:right;
 {
 
 /*lightGreen*/
-background-color : black; 
+background-color : lightGreen; 
 width:100%;
 height:;
 position:sticky;
