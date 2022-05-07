@@ -108,7 +108,7 @@ text-align:right;
 }
 #header2
 {
-
+z-index: 90;
 /*lightGreen*/
 background-color : lightGreen; 
 width:100%;
@@ -197,7 +197,8 @@ header {
 
 /*中身*/
 #h-menu_content {
-    position: fixed;
+ z-index: 89;
+   position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
