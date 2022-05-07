@@ -205,7 +205,7 @@ header {
     max-width: 320px;
     height: 100vh;
     padding: 53px 16px 16px;
-    background: #black;
+    background: #1f2c37;
     overflow: auto;
     transition: .3s ease-in-out;
     -webkit-transform: translateX(-105%);
