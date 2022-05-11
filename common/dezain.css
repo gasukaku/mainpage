@@ -312,7 +312,6 @@ background-color:#363636;
 color:white;
 }
 
-<style type="text/css">
 .button {
   display       : inline-block;
   border-radius : 6%;          /* 角丸       */
@@ -329,7 +328,7 @@ color:white;
 .button:hover {
   opacity       : 0.8;         /* カーソル時透明度 */
 }
-</style>
+
 
 
 
