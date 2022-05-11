@@ -277,8 +277,9 @@ img { width:90%; }
 #header_yohaku2 {
   padding-top:0.001em;
 }
-#header_logp {
+#header_logo {
  font-family: 'Exo', sans-serif; 
+white-space: nowrap;
 }
 
 
