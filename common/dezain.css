@@ -299,7 +299,7 @@ white-space: nowrap;
 
 #home_logo2 {
   padding-top:20em;
-text-stroke: 1px white;
+
 }
 
 #prof {
@@ -357,8 +357,9 @@ img { width: 70%; }
   background-color:black;
   color:white;
 }
-
-
+fuchi {
+  text-stroke: 1px white;
+}
 
 
 
