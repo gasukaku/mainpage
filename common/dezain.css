@@ -290,7 +290,9 @@ img { width:90%; }
  /*font-family: 'Exo', sans-serif; */
 white-space: nowrap;
 }
-
+#u {
+background-image: url("無題 2022-07-22 21-05-47.jpg");
+}
 
 #home_logo {
   padding-top:20em;
@@ -299,7 +301,7 @@ white-space: nowrap;
 
 #home_logo2 {
   padding-top:20em;
-background-image: url("無題 2022-07-22 21-05-47.jpg");
+
 }
 
 #prof {
