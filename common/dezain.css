@@ -29,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: ;
+  background-image: url("P3120230.JPG");
  /*font-size*/
   font-size: 18px;
   /*overflow-x: hidden;
@@ -89,7 +90,7 @@ top:0;
   bottom: 0;
   background: #3f98ef;
   opacity: 0.6;
-  background-image: url("P3120230.JPG");
+  
 }
 #page_top a{
   position: relative;
