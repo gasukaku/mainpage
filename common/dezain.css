@@ -89,6 +89,7 @@ top:0;
   bottom: 0;
   background: #3f98ef;
   opacity: 0.6;
+  background-image: url("P3120230.JPG");
 }
 #page_top a{
   position: relative;
@@ -349,7 +350,6 @@ color:white;
 }
 
 img { width: 70%; }
-background-image: url("P3120230.JPG");
 
 
 
