@@ -81,6 +81,7 @@ height:4em;
 text-align:center;
 position:sticky;
 top:0;
+opacity:0.8;/**透過ヘッダー**/
 }
 #page_top{
   width: 50px;
@@ -102,6 +103,7 @@ top:0;
 
 #header {
   width : 50vw ; 
+
 }
 
 
