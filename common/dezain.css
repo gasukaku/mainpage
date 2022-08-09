@@ -21,10 +21,10 @@ a {
   color: royalblue;
 }
 
-
+a:hover {
+  color: springgreen;
 }
-/*a:hover {
-  color: springgreen;*/
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   color: black;
