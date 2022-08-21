@@ -1,5 +1,10 @@
 #header {
  font-size:25px;   
+ position:sticky;
+
+top:0;
+
+opacity:0.95;
 }
 p.kugiri {
    border-bottom: 1px solid black;
