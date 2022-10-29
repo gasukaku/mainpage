@@ -373,7 +373,9 @@ s {
     width: 7%;
     vertical-align: mid
 }
-
+#i-s {
+   background-color:#EDEDED;
+}
 
 
 
