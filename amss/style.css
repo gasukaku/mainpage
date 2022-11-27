@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200&display=swap');
+/*@charset "utf-8";*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth;}
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 0;
+
+  color: none;
+  resize: none;
+  /*transition: 300ms*/
+  text-decoration: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+a {color:green}
+a:hover {color:rgb(170, 136, 43);
+  text-decoration:underline;}
+a:active {color:red;
+  text-decoration:underline;}
+#header
+{
+  text-decoration:none;
+background-color:Green;
+width:100%;
+height:none;
+
+position:sticky;
+top:0;
+}
+.fixed-background {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.backpic1 {
+background-image: url(背景.jpg);
+}
+#welcom {
+  font-weight: bold;
+  font-size:50px;
+}
+.pic img { width: 70%; }
+
+img  { width: 70%; }
+
+#f 
+{
+  background-color: black;
+  color:white;
+}
+.f-b img { width: 50%; }
+
+#txt {
+  background-color: rgb(166, 243, 185);
+}
