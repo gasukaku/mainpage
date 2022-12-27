@@ -1,7 +1,8 @@
 window.onload = () => {
   document.head.innerHTML += `<meta name="viewport" content="width=device-width, initial-scale=1">`
   document.body.innerHTML = `
-   <!--ヘッダーはここから-->
+<header>  
+ <!--ヘッダーはここから-->
  <div id="header2">
 <div id="header_yohaku2">
   
