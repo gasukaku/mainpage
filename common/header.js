@@ -1,6 +1,6 @@
 function header(){
     $.ajax({
-        url: '/common/tpl/header.html',
+        url: 'header.html',
         cache: false,
         async: false,
         dataType: 'html',
