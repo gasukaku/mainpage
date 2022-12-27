@@ -1,9 +1,10 @@
-function header(){
-    ajax({
-        url: 'https://www.gasukaku.net/common/header.html',
+function writeHeader(rootDir){
+    $.ajax({
+        url: rootDir + "header.html",
         cache: false,
-        dataType: 'html',
         success: function(html){
+
+            html = html.replace(/\{\$root\}/g, rootDir);
             document.write(html);
         }
     });
