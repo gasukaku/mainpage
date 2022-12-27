@@ -1,8 +1,7 @@
-window.onload = () => {
-  document.head.innerHTML += `<meta name="viewport" content="width=device-width, initial-scale=1">`
-  document.body.innerHTML = `
-<header>  
- <!--ヘッダーはここから-->
+function header(){
+var html = "";
+html += '<header>';
+html += '
  <div id="header2">
 <div id="header_yohaku2">
   
@@ -31,4 +30,7 @@ window.onload = () => {
   <div id="header_yohaku">
     </div></div></div></div></h3>   
    
-    <!--ヘッダーここまで-->
+    ';
+html += '</header>';
+document.write(html);
+}
