@@ -1,5 +1,5 @@
 function header(){
-    $.ajax({
+    .ajax({
         url: 'https://www.gasukaku.net/common/header.html',
         cache: false,
         dataType: 'html',
