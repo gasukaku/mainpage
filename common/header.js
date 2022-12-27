@@ -1,6 +1,6 @@
 function header(){
     $.ajax({
-        url: 'header.html',
+        url: 'https://www.gasukaku.net/common/header.html',
         cache: false,
         async: false,
         dataType: 'html',
