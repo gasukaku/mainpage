@@ -1,6 +1,6 @@
 function writeHeader(rootDir){
     $.ajax({
-        url: rootDir + "header.html",
+        url: rootDir + "common/header.html",
         cache: false,
         success: function(html){
 
