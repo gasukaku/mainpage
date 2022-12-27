@@ -376,7 +376,10 @@ s {
 #i-s {
    background-color:#EDEDED;
 }
-
+header {
+margin:0;
+padding:0;
+}
 
 
 
