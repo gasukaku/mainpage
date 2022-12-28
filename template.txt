@@ -1,7 +1,14 @@
- <!--ヘッダー読み込み用js-->
+  
+    <!--ヘッダー読み込み用js-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript" src="/common/header.js"></script> 
+  <!---->
+  </head>
+   <!--ヘッダー読み込みjs埋め込み-->
 <div id="header2">
   <script type="text/javascript">
     writeHeader("./");
 </script>
 </div>
    <!----->
+  
