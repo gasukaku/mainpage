@@ -1,0 +1,7 @@
+ <!--ヘッダー読み込み用js-->
+<div id="header2">
+  <script type="text/javascript">
+    writeHeader("./");
+</script>
+</div>
+   <!----->
