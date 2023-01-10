@@ -21,7 +21,7 @@ html { scroll-behavior: smooth;}
   appearance: none;
 }
 a {color:green}
-a:hover {color:rgb(170, 136, 43);
+a:hover {color:yellow;
   text-decoration:underline;}
 a:active {color:red;
   text-decoration:underline;}
