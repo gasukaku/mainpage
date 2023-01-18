@@ -1,6 +1,6 @@
 function writeHeader(rootDir){
     $.ajax({
-        url: rootDir + "/common/header.html",
+        url: rootDir + "https://www.gasukaku.net/common/header.html",
         cache: false,
         async: false,
         success: function(html){
