@@ -9,7 +9,7 @@ body {
 * {  
 margin: 0;
 padding: 0;
-line-height:none;
+line-height:0px;
 }
 
 html { scroll-behavior: smooth;}
