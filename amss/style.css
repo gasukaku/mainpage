@@ -13,11 +13,11 @@ html { scroll-behavior: smooth;}
   border: none;
   border-radius: 0;
 
-  color: none;
+  
   resize: none;
   /*transition: 300ms*/
   text-decoration: none;
-  -webkit-appearance: none;
+ 
   appearance: none;
 }
 a {color:green}
