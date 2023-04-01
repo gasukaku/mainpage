@@ -13,11 +13,10 @@ body {
   margin: 0px;
   padding: 0px;
   top:0;
-scroll-behavior: smooth;
   }
 
 
-html { scroll-behavior: smooth;}
+html { scroll-behavior:smooth;}
 
 
 
