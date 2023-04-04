@@ -16,9 +16,10 @@ body {
   }
 
 
-html { scroll-behavior:smooth;}
+html { 
+  scroll-behavior:smooth;
 
-z-index:101;
+
   
   
   text-decoration: none;
