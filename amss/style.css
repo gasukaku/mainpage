@@ -18,15 +18,13 @@
 
 
 html { 
- 
-
-  
-  
-  text-decoration: none;
- 
-  appearance: none;
+resize: none;
+appearance: none;
 }
-a {color:green}
+a {
+  color:green;
+  text-decoration: none; }
+
 a:hover {color:rgb(170, 136, 43);
   text-decoration:underline;}
 a:active {color:red;
