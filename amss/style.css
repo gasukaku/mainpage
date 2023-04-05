@@ -8,7 +8,8 @@
   border-radius: 0;
   margin: 0px;
   padding: 0px;
-  scroll-behavior:smooth;}
+  scroll-behavior:smooth;
+}
  
 
  
@@ -16,8 +17,6 @@ body {
   margin: 0px;
   padding: 0px;
   top:0;
-　
- 
 }
 
 
@@ -33,8 +32,6 @@ a:hover {color:rgb(170, 136, 43);
   text-decoration:underline;}
 a:active {color:red;
   text-decoration:underline;}
-
-}
 
 #header {
 text-decoration:none;
