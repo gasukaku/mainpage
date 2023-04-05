@@ -9,6 +9,8 @@
   margin: 0px;
   padding: 0px;
   scroll-behavior:smooth;}
+  background-color:white;
+  opacity:0.30;
 
   body {
   margin: 0px;
@@ -76,8 +78,6 @@ img  {  width:500px; }
 
 .txt-alia {
 backdrop-filter:blur(10px);
-background-color:white;
-opacity:0.30;
 }
 
 
