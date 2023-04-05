@@ -53,9 +53,14 @@ background-image: url(背景2.jpg);
   font-weight: bold;
   font-size:35px;
 }
-.pic img {  width:260px; }
 
-img  {  width:260px; }
+img  {  width:500px; }
+
+@media (max-width: 767px) {
+  img {
+    width:260px;
+  }
+}
 
 #f 
 {
