@@ -70,7 +70,7 @@ img  {  width:500px; }
   background-color: black;
   color:white;
 }
-.f-b img { width: 50%; }
+.f-b img { width:150px }
 
 #txt {
   background-color: rgb(166, 243, 185);
