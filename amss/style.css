@@ -12,7 +12,8 @@
   background-color:white;
   opacity:0.30;
 
-  body {
+ 
+body {
   margin: 0px;
   padding: 0px;
   top:0;
@@ -31,6 +32,11 @@ a:hover {color:rgb(170, 136, 43);
   text-decoration:underline;}
 a:active {color:red;
   text-decoration:underline;}
+.background {
+ background-color:white;
+  opacity:0.30;
+}
+
 #header {
   text-decoration:none;
 background-color:Green;
