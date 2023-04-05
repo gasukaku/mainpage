@@ -33,7 +33,7 @@ a:hover {color:rgb(170, 136, 43);
 a:active {color:red;
   text-decoration:underline;}
 
-#header {
+.header {
 text-decoration:none;
 background-color:Green;
 width:100%;
