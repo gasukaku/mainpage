@@ -9,15 +9,15 @@
   margin: 0px;
   padding: 0px;
   scroll-behavior:smooth;}
-  background-color:white;
-  opacity:0.30;
+ 
 
  
 body {
   margin: 0px;
   padding: 0px;
   top:0;
-  }
+　backdrop-filter:blur(10px);  
+}
 
 
 html { 
@@ -55,7 +55,7 @@ top:0;
   background-position: center;
 }
 .backpic1 {
-background-image: url(背景2.jpg);
+background-image: url(背景.jpg);
 }
 #welcom {
   font-weight: bold;
