@@ -32,9 +32,7 @@ a:hover {color:rgb(170, 136, 43);
   text-decoration:underline;}
 a:active {color:red;
   text-decoration:underline;}
-.background {
- background-color:white;
-  opacity:0.30;
+
 }
 
 #header {
