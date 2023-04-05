@@ -16,7 +16,7 @@ body {
   margin: 0px;
   padding: 0px;
   top:0;
-　backdrop-filter:blur(10px);  
+　
  
 }
 
@@ -37,13 +37,12 @@ a:active {color:red;
 }
 
 #header {
-  text-decoration:none;
+text-decoration:none;
 background-color:Green;
 width:100%;
 height:none;
 margin: 0;
 z-index:102;
-
 position:sticky;
 top:0;
 }
