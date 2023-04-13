@@ -141,7 +141,13 @@ opacity:0.95;
 {background-color:lightgray;
   color:black;
 }
-.pic img { width: 70%; }
+img  {  width:500px; }
+
+@media (max-width: 767px) {
+  img {
+    width:260px;
+  }
+}
 
 #menu
 {
