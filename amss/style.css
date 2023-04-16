@@ -23,6 +23,7 @@ body {
 html { 
 resize: none;
 appearance: none;
+-webkit-overflow-scrolling: touch;
 }
 a {
   color:green;
