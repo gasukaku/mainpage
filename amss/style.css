@@ -88,13 +88,13 @@ backdrop-filter:blur(10px);
 
 
 .open {
-	cursor:pointer; 
+	cursor:pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
 }
 #pop-up {
-	display: none; 
+	display: none; /* label でコントロールするので input は非表示に */
 }
 .overlay {
-	display: none;
+	display: none; /* input にチェックが入るまでは非表示に */
 }
 #pop-up:checked + .overlay {
 	display: block;
