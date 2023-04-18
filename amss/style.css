@@ -98,7 +98,7 @@ backdrop-filter:blur(10px);
 }
 #pop-up:checked + .overlay {
 	display: block;
-	z-index: 9999;
+	z-index: 99999999;
 	background-color: #00000070;
 	position: fixed;
 	width: 100%;
