@@ -107,7 +107,7 @@ backdrop-filter:blur(10px);
 	left: 0;
 }
 .window {
-        width: 530px;
+        width: 90vw;
 	max-width: 380px;
 	height: 240px;
 	background-color: #ffffff;
