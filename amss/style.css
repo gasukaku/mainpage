@@ -127,3 +127,11 @@ backdrop-filter:blur(10px);
 	right: 4px;
 	font-size: 20px;
 }
+
+iframe  {  width:500px; }
+
+@media (max-width: 767px) {
+  img {
+    width:260px;
+  }
+}
