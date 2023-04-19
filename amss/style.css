@@ -135,9 +135,7 @@ backdrop-filter:blur(10px);
 iframe  {  width="560" height="315" }
 
 @media (max-width: 767px) {
- iframe {
-    width="336" height="189"
-  }
+
 .window {
     width: 80%;
     
