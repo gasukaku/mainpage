@@ -133,13 +133,7 @@ backdrop-filter:blur(10px);
 }
 
 
-@media (max-width: 767px) {
 
-.window {
-    width: 80%;
-    
-	}
-}
 iframe {
     max-width: 100%;
     height: auto;
