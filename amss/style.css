@@ -131,7 +131,7 @@ backdrop-filter:blur(10px);
 iframe  {  width:500px; }
 
 @media (max-width: 767px) {
-  img {
+ iframe {
     width:260px;
   }
 }
