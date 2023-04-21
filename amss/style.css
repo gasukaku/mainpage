@@ -132,7 +132,7 @@ backdrop-filter:blur(10px);
 	font-size: 20px;
 }
 iframe {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 }
 
