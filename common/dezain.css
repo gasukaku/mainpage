@@ -141,13 +141,7 @@ opacity:0.95;
 {background-color:lightgray;
   color:black;
 }
-img  {  width:500px; }
-
-@media (max-width: 767px) {
-  img {
-    width:260px;
-  }
-}
+.pic img { width: 70%; }
 
 #menu
 {
@@ -364,7 +358,7 @@ color:white;
   text-align: center;
 }
 
-
+img { width: 70%; }
 
 #f {
   background-color:black;
@@ -373,20 +367,6 @@ color:white;
 s {
   text-stroke: 1px white;
 }
-
-
-.text_img{
-    width: 30px;
-    vertical-align: mid
-}
-#i-s {
-   background-color:#EDEDED;
-}
-header {
-margin:0;
-padding:0;
-}
-
 
 
 
