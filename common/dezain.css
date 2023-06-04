@@ -2,9 +2,6 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');*/
 @charset "utf-8";
-html {
-  overflow: hidden;
-}
 * {
   
   outline: none;
@@ -33,7 +30,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: ;
-  overflow: auto;
+  
  /*font-size*/
  
   /*overflow-x: hidden;
