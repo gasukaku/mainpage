@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @charset "utf-8";
 * {
-  font-family: 'Barlow', "Noto Sans JP" , sans-serif;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   outline: none;
   border: none;
   border-radius: 0;
