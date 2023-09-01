@@ -1,6 +1,5 @@
-##Links
- 
-#Gasukaku's WebSite
+# Links  
+## Gasukaku's Website
 https://www.gasukaku.net/
-#AMS Signal
+## AMS Signal
 https://amss.gasukaku.net/
