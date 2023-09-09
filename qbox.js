@@ -11,7 +11,7 @@ form.addEventListener('submit', (event) => {
     'entry.2468101214': question
   };
 
-  const formUrl = 'https://docs.google.com/forms/d/e/フォームのID/formResponse';
+  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSf7kBLi6T5fE79hYuBCDsxH1oy3_RoAHmKC_lZPdnpquaWJKA/formResponse';
   const options = {
     'method': 'post',
     'payload': payload
