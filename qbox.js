@@ -8,8 +8,6 @@ form.addEventListener('submit', (event) => {
   const question = questionInput.value;
 
   const payload = {
-    'entry.1234567890': name,
-    'entry.0987654321': email,
     'entry.2468101214': question
   };
 
@@ -22,7 +20,7 @@ form.addEventListener('submit', (event) => {
   message.textContent = '送信中...';
   fetch(formUrl, options)
     .then(() => {
-      message.textContent = '送信完了しました。ありがとうございました！';
+      message.textContent = '送信しました！';
       form.reset();
     })
     .catch(() => {
