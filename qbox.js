@@ -1,8 +1,9 @@
+// 以下のコードはChatGPT(GPT3.5)が書いています
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('question-form');
 
     // Google Apps Scriptの公開ウェブアプリケーションURL
-    const gasUrl = 'https://script.google.com/macros/s/your_script_id/exec';
+    const gasUrl = 'https://script.google.com/macros/s/AKfycbziZ7dXg_x2pkPo0ufX3VqIf6CjE7K3-O0MTSBtvdfgXiRWUMJeMaWIk-Ssn51ZZOxnkw/exec';
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
