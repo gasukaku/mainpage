@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('question-form');
 
     // Google Apps Scriptの公開ウェブアプリケーションURL
-    const gasUrl = 'https://script.google.com/macros/s/AKfycbziZ7dXg_x2pkPo0ufX3VqIf6CjE7K3-O0MTSBtvdfgXiRWUMJeMaWIk-Ssn51ZZOxnkw/exec';
+    const gasUrl = 'https://script.google.com/macros/s/AKfycbzUjE58At9gUUWE9m_ITvmR33AvALRlr_vruvgoSvyl-Ns71vRvN6TrU70yGwoWjA4_DQ/exec';
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
