@@ -24,12 +24,4 @@ function writeFooter(rootDir){
     });
 }
 
-// 現在のURLを取得
-const currentURL = window.location.href;
 
-// パラメーターが既に含まれているかを確認
-if (!currentURL.includes('?')) {
-    // パラメーターが含まれていない場合、パラメーターを追加しないようにする
-    const updatedURL = currentURL + '/';
-    window.location.href = updatedURL;
-}
