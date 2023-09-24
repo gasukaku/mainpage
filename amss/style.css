@@ -142,6 +142,18 @@ backdrop-filter:blur(10px);
 
 .window {
     width: 80%;
+
+
+
+.profile-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+.profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
     
 	}
 }
