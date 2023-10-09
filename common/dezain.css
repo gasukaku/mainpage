@@ -306,9 +306,11 @@ background-image: url("無題 2022-07-22 21-05-47.jpg");
 
 #home_logo {
   padding-top:18em;
-　img {width:15px;}
+　
 }
-
+#home_logo img{
+  width;15px;
+}
 
 #home_logo2 {
   padding-top:20em;
