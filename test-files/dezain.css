@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200&display=swap');
+@charset "utf-8";
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  
+  
+  resize: none;
+  
+  text-decoration: none;
+  
+  appearance: none;
+}
+/*aタグ色の変更*/
+a {
+  color: royalblue;
+}
+a:hover {
+  color: springgreen;
+}
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  /*overflow-x: hidden;
+ animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;*/
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+html { scroll-behavior: smooth;}
+.logo {
+  color: black;
+  font-size: 3rem;
+  padding: 10% 0;
+  color:white;
+}
+.cnt {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#read {
+  cursor: pointer;
+}
+details {
+  margin-left: 15px; 
+}
+.blog_box {
+  border: solid;
+  margin:10px 10% 0 10%;
+  border-radius: 10px;
+}
+#start {
+  font-size: 30px;
+}
+#header {
+background-color:coral none;
+width:100%;
+height:4em;
+text-align:center;
+position:sticky;
+top:0;
+}
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3f98ef;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+
+#header {
+  width : 50vw ; 
+}
+
+
+}
+/*ヘッダープログラム？*/
+#headerlogo {
+  color: White;
+text-align:right;
+}
+#headerlogo:hover {
+  color:Blue ;
+
+}
+#header2
+{
+
+/*lightGreen*/
+background-color : black; 
+width:100%;
+height:;
+position:sticky;
+top:0;
+
+}
+
+#header_blog
+{
+   color:Gray ;
+  
+}
+#gasukaku
+{background-color:lightgray;
+  color:black;
+}
+.pic img { width: 70%; }
+
+#menu
+{
+  color: white;}
+#menuback
+{background-color:
+  ;}
+
+
+header {
+  padding: 16px;
+  background: #1f2c37;
+}
+
+.h-menu{
+  margin: 5px;
+  position: relative;
+}
+
+/*inputのcheckboxは非表示に*/
+.h-menuCheckbox {
+  display:none;
+}
+
+/*ハンバーガーメニュー*/
+.h-menu_icon {
+    display: inline-block;
+    width: 30px;
+    
+    vertical-align: middle;
+}
+
+/*3本線*/
+.hamburger-icon, .hamburger-icon::before, .hamburger-icon::after {
+    
+  content: '';
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top:0;
+    bottom:0;
+    width: 32px;
+    height: 3px;
+    background: white;
+    cursor: pointer;
+}
+.hamburger-icon:before {
+    top: 10px;
+}
+.hamburger-icon:after {
+    top: 20px;
+}
+
+/*メニュー以外を暗くする*/
+#h-menu_black {
+    display: none;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .7s ease-in-out;
+}
+
+/*中身*/
+#h-menu_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    max-width: 320px;
+    height: 100vh;
+    padding: 53px 16px 16px;
+    background: #black;
+    overflow: auto;
+    transition: .3s ease-in-out;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+/*チェックボックスにチェックが入ったら表示*/
+input:checked ~ .h-menu_icon .hamburger-icon{
+    background: transparent;
+}
+input:checked ~ .h-menu_icon .hamburger-icon::before{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top:10px;
+    z-index:999;
+}
+input:checked ~ .h-menu_icon .hamburger-icon::after{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top:10px;
+    z-index:999;
+}
+input:checked ~ #h-menu_black {
+    display: block;
+    opacity: .8;
+}
+#h-menu_checkbox:checked ~ #h-menu_content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+.h-menu_icon .hamburger-icon,
+.h-menu_icon .hamburger-icon::before,
+.h-menu_icon .hamburger-icon::after,
+#h-menu_black,
+#h-menu_content{
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+#h-menu_content ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#h-menu_content ul li{
+    border-bottom: solid 1px white;
+}
+#h-menu_content li a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    padding: 24px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+#h-menu_content li a:hover {
+    background: #455b6d;
+}
+
+
+.bloglogo
+img { width:90%; }
+
+#header_yohaku {
+  padding-top:1em;
+}
+#header_yohaku2 {
+  padding-top:0.001em;
+}
+#header_logp {
+ font-family: 'Exo', sans-serif; 
+}
+
+
+#home_logo {
+  padding:15%;
+}
+
+
+#home_logo2 {
+  padding:13%;
+}
+
+#prof {
+background-color:#363636;
+}
+#irai {
+background-color:black;	
+}
+#links {
+background-color:#363636;
+}
+
+#sougo {
+background-color:black;
+}
+
+#gr {
+background-color:#363636;
+}
+
+
+
+/******ここから下はトップへ戻るボタン************/
+/*PAGE TOPボタン追加*/
+#page_top{
+width: 50px;
+height: 50px;
+position: fixed;
+right: 0;
+bottom: 50px;
+background: #003a75; /*ボタンの色*/
+opacity: 0.6;
+border-radius: 50%; /*角の丸み*/
+}
+#page_top a{
+position: relative;
+display: block;
+width: 50px;
+height: 50px;
+text-decoration: none;
+}
+#page_top a::before{
+font-family: "Font Awesome 5 Free";
+content: "f102"; /*アイコン*/
+font-weight: 900;
+font-size: 25px;
+color: #fff; /*アイコンの色*/
+position: absolute;
+width: 25px;
+height: 25px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+text-align: center;
+}
